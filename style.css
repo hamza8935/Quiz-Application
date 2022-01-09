@@ -67,14 +67,14 @@ button:hover{
 .main1{
     width: 1340px;
     height: 640px;
-    background-color: blueviolet;
+    background-color: rgba(138,43,226,.7);
     display:flex;
     align-items: center;
     justify-content: center;
 }
 .para{
     width: 600px;
-    height: 400px;
+    height: 500px;
     background-color: white;
     border-radius: 5px;
 }
@@ -91,6 +91,7 @@ button:hover{
     height: 30px;
     width: 100px;
     border-radius: 10px;
+    color: white;
 }
 .span2{
     margin-left: 5px;
@@ -98,4 +99,26 @@ button:hover{
     color: white;
     width: 20px;
     text-align: center;
+}
+.a1{
+    border: 1px solid lightblue;
+    width: 450px;
+    font-size: 20px;
+    background-color:rgba(173,216,230,.6);
+    margin-left: 60px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+.b1{
+    text-align: center;
+}
+.w1{
+    width: 500px;
+}
+p{
+    text-align: center;
+}
+.w2{
+   margin-top: 20px;
+   width: 500px;
 }
