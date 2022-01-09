@@ -45,12 +45,13 @@ button:hover{
 .heading{
     margin-top: -50px;
     text-align: center;
-    font-family:  cursive;;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    color: gold;
     
     /* border-bottom: 1px solid black; */
 }
 .line{
-    width: 500px;
+    width: 400px;
 }
 .hide{
     
@@ -58,5 +59,43 @@ button:hover{
     
 }
 .heading1{
+    text-align: center;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+
+.main1{
+    width: 1340px;
+    height: 640px;
+    background-color: blueviolet;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.para{
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 5px;
+}
+.center1{
+    display: flex;
+    justify-content: space-around;
+}
+.time{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 23px;
+    background-color:lightblue;
+    height: 30px;
+    width: 100px;
+    border-radius: 10px;
+}
+.span2{
+    margin-left: 5px;
+    background-color: green;
+    color: white;
+    width: 20px;
     text-align: center;
 }
