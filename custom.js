@@ -60,7 +60,7 @@ let element = quiz[item];
     op2.innerText = element.option2,
     op3.innerText = element.option3,
     op4.innerText = element.option4;
-  console.log(element++);  
+  element++ ;  
     console.log(element);
     next.innerText = next1 + 1;
     console.log(next1);
