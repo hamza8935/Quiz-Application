@@ -50,24 +50,32 @@ let next = document.querySelector('.next');
 btn4.addEventListener('click',function () {
       
 
-let next1 = 1; 
-    let item = 0 ;
-let element = quiz[item];
+
+    b1.innerText   =   quiz[2].question 
+    op1.innerText = quiz[2].option1,
+        op2.innerText = quiz[2].option2,
+        op3.innerText = quiz[2].option3,
+        op4.innerText = quiz[2].option4;
+
+
+// let next1 = 1; 
+//     let item = 0 ;
+// let element = quiz[item];
     
     
-     b1.innerText = element.question,
-    op1.innerText = element.option1,
-    op2.innerText = element.option2,
-    op3.innerText = element.option3,
-    op4.innerText = element.option4;
-  element++ ;  
-    console.log(element);
-    next.innerText = next1 + 1;
-    console.log(next1);
+//      b1.innerText = element.question,
+//     op1.innerText = element.option1,
+//     op2.innerText = element.option2,
+//     op3.innerText = element.option3,
+//     op4.innerText = element.option4;
+//   element++ ;  
+//     console.log(element);
+//     next.innerText = next1 + 1;
+//     console.log(next1);
          
 
 // console.log(option34);
-})
+ })
 
 
 
@@ -80,5 +88,11 @@ btn2.addEventListener('click',function () {
     main.classList.add('hide');
 })
 btn3.addEventListener('click',function ( ) {
+    
+    b1.innerText   =   quiz[1].question 
+    op1.innerText = quiz[1].option1,
+        op2.innerText = quiz[1].option2,
+        op3.innerText = quiz[1].option3,
+        op4.innerText = quiz[1].option4;
     main2.classList.add('hide1');
 })
